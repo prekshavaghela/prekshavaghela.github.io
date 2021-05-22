@@ -1,6 +1,8 @@
 # prekshavaghela.github.io
 http://prekshavaghela.github.io/
 
+THIS IS CURRENTLY UNDER DEVELOPMENT. I promise it will look wayyy better!! 
+
 Preksha Vaghela's personal website!!! Learn more about me and what I've been doing to progress in computer engineering!! 
 
 work from may 20th:
