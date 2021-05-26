@@ -13,6 +13,10 @@
     <style>
         .h1, h1, h2,h3,h4, h5{
         font-family: "Courier New", monospace; 
+        color: black;
+        }
+        body{
+          background-color: #d6eff8;
         }
     </style>
     
@@ -23,7 +27,7 @@
  <!-- STEP 1: added a navigation bar using bootstrap--> 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
     
-    <a class="navbar-brand" href="index.html">Preksha Vaghela </a>
+    <a class="navbar-brand " href="index.html">Preksha Vaghela </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +35,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent" >
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link " href="index.html"> Home <span class="sr-only">(current)</span></a>
             </li>
             <!--
             <li class= "nav-item dropdown"> 
@@ -51,12 +55,12 @@
                 
             </li>   
             -->  
-            <li class="nav-item ">
-                <a class="nav-link text-white" href="objective.html"> Resume </a>
+            <li class="nav-item">
+                <a class="nav-link " href="objective.html"> Resume </a>
             </li>
 
             <li class="nav-item ">
-                <a class="nav-link text-white" href="contact.html"> Contact Me! </a>
+                <a class="nav-link" href="contact.html"> Personal Projects </a>
             </li>
         
         </ul>
@@ -66,13 +70,20 @@
 
   <body>
     
-    <h1>Welcome to the personal website of Preksha Vaghela! </h1>
-    <h2> Computer Engineering '23 from Texas A&M University, College Station </h2>
-    <h3>CURRRENTLY UNDER DEVELOPMENT!!! </h3>
+    <h1 id="name"> </h1>
+    <script>
+      var name= prompt("Please enter your name:");
+      document.getElementById("name").innerHTML = "Hello "+ name + "! Welcome to the personal website of Preksha Vaghela!";
+    </script>   
+    
+    
     <br>
-
-        
-        
+    <h2> !!!THIS WEBSITE IS CURRRENTLY UNDER DEVELOPMENT!!! </h2>
+    <br>
+    <h3> I am a Computer Engineering student from Texas A&M University, College Station! </h3>
+    <br>
+    
+    
         
      
    
