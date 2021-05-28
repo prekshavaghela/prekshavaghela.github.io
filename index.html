@@ -11,12 +11,38 @@
     <title> Preksha Vaghela </title>
 
     <style>
-        .h1, h1, h2,h3,h4, h5{
+        h2,h3,h4, h5{
         font-family: "Courier New", monospace; 
         color: black;
         }
+        h1{
+        font-family: "Courier New", monospace; 
+        color: white;
+        font-weight: bold;
+        }
+        p{
+        font-family: "Courier New", monospace; 
+        font: outline;
+        color: black;
+        font-size: x-large;
+        }
         body{
-          background-color: #d6eff8;
+          background-color: #ffecef;
+          
+        }
+        main{
+          margin-left: 1cm;
+          margin-right: 1cm;
+        }
+        img{
+          width:30%;
+          height: 30%;
+          margin-right: 1cm;
+        }
+        header{
+          background-image: url("flowers.png");
+          padding: 30px;
+          text-align: center;
         }
     </style>
     
@@ -60,7 +86,7 @@
             </li>
 
             <li class="nav-item ">
-                <a class="nav-link" href="contact.html"> Personal Projects </a>
+                <a class="nav-link" href="contact.html"> Contact Me! </a>
             </li>
         
         </ul>
@@ -69,23 +95,33 @@
   </nav>
 
   <body>
-    
+
+    <header>
     <h1 id="name"> </h1>
     <script>
-      var name= prompt("Please enter your name:");
+      var name= prompt("Please enter your name! (It's just going to make a personalized greeting):");
       document.getElementById("name").innerHTML = "Hello "+ name + "! Welcome to the personal website of Preksha Vaghela!";
     </script>   
+    </header>
     
+    <main>
+      <br>
+      <h2> !!!THIS WEBSITE IS CURRRENTLY UNDER DEVELOPMENT!!! </h2>
+      <br>
+      <img src="preksha.jpg" class="rounded float-left" >
+      <p> I am a Computer Engineering student from Texas A&M University, College Station! I am looking for an software engineering internship for Summer 2022 to increase my programming skills and gain industry applicable knowledge that extends beyond my university education.</p>
+
+    <p>
+      In my free time I love watching sports, pottery, and hanging out with my friends and family. 
+    I also love traveling, and I can't wait to start again!  
+    </p>
+      
+      <br>
+      <p> This is my LinkedIn: <a href="https://www.linkedin.com/in/preksha-vaghela-computerengineer">https://www.linkedin.com/in/preksha-vaghela-computerengineer  </a></p>
+      <p> My github: <a href="https://github.com/prekshavaghela"> https://github.com/prekshavaghela</a></p>
+      
+    </main>
     
-    <br>
-    <h2> !!!THIS WEBSITE IS CURRRENTLY UNDER DEVELOPMENT!!! </h2>
-    <br>
-    <h3> I am a Computer Engineering student from Texas A&M University, College Station! </h3>
-    <br>
-    
-    
-        
-     
    
     <!-- this is to run the JS based bootstrap things -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
