@@ -1,0 +1,34 @@
+h2,h3, h4, h5, p{
+    font-family: "Courier New", monospace; 
+}
+
+    h1{
+    font-family: "Courier New", monospace; 
+    color: black;
+    font-weight: bold;
+    }
+
+    h6{
+      font-family: "Courier New", monospace; 
+      color: white; 
+    }
+
+    body{
+      background-color:#d6eff8;
+    }
+
+    header{
+      background-image: url("background6.png");
+      padding: 30px;
+      text-align: center;
+    }
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#343a40;  
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
