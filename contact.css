@@ -1,0 +1,32 @@
+body{
+    background-color: #eeb894;
+        
+}
+
+header{
+    background-image: url("sunset.png");
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+}
+
+h1{
+    font-family: "Courier New", monospace; 
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    font-family: "Courier New", monospace; 
+    color: white; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#343a40;  
+    text-align: center;
+    padding: 10px;
+    color: white;
+}

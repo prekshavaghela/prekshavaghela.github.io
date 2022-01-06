@@ -1,0 +1,40 @@
+        h2,h3, h4, h5, p{
+        font-family: "Courier New", monospace; 
+        }
+        h1{
+        font-family: "Courier New", monospace; 
+        color: black;
+        font-weight: bold;
+        }
+        h6{
+          font-family: "Courier New", monospace; 
+          color: white; 
+        }
+        .text{
+            font-family: "Courier New", monospace; 
+            font-size: x-large;
+            line-height: 100%;
+        }
+        .obj{
+            font-family: "Courier New", monospace; 
+            font-size: x-large;
+        }
+        .gpa{
+            font-family: "Courier New", monospace; 
+            font-size: large;
+        }
+        body{
+          background-color:#d6eff8;
+        }
+        header{
+          background-image: url("background6.png");
+          padding: 30px;
+          text-align: center;
+        }
+
+        footer{
+          background-color:#343a40;  
+          padding: 10px;
+          text-align: center;
+          
+        }

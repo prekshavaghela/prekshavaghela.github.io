@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+'use strict';
+
+const e = React.createElement;
 
 function calculateWinner(squares) {
   const lines = [
@@ -113,10 +116,10 @@ function Square(props){
 
   // ========================================
 
-  ReactDOM.render(
-    <Game />,
-    document.getElementById('root')
-  );
+//  ReactDOM.render(
+  //  <Game />,
+  //  document.getElementById('root')
+  // );
 
-  const domContainer = document.querySelector('#tiktac');
+const domContainer = document.querySelector('#tiktac');
 ReactDOM.render(e(Game), domContainer);

@@ -1,0 +1,48 @@
+
+h2,h3,h4, h5 {
+font-family: "Courier New", monospace; 
+color: black;
+}
+h1, h6{
+font-family: "Courier New", monospace; 
+color: white;
+font-weight: bold;
+}
+p{
+font-family: "Courier New", monospace; 
+font: outline;
+color: black;
+font-size: x-large;
+}
+body{
+  background-color: #ffecef;
+  
+}
+main{
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+img{
+  width:30%;
+  height: 100%;
+  margin-right: 1cm;
+}
+header{
+  background-image: url("flowers.png");
+  padding: 30px;
+  text-align: center;
+  background-size: cover;
+}
+footer{
+  background-color:#343a40;  
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.footer{
+    font-family: "Courier New", monospace; 
+    color: white;
+    font-size: medium;
+}
